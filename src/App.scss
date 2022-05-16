@@ -1,0 +1,145 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  text-align: center;
+
+
+.App-header {
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.send-message {
+  width: 1000px;
+  height: 49px;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.input-author {
+  width: 200px;
+  color: black;
+}
+
+.input-text {
+  width: 600px;
+}
+
+.button-text {
+  margin-top: 10px;
+  width: 333px;
+}
+
+.chat {
+  background-color: lightblue;
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.messenger{
+  display: flex;
+}
+
+.chats{
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  justify-content: space-between;
+}
+
+.chatList{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+}
+
+.addChat {
+  width: 120px;
+}
+
+.chatText {
+  position: relative;
+}
+
+.deleteChat {
+  position: absolute;
+  right: -25px;
+  top: -25px;
+  color: red;
+
+  cursor: pointer;
+}
+
+.chatButton {
+  height: 40px;
+}
+
+.message {
+  margin: 10px 15px 0 0;
+  padding: 5px 15px;
+
+  color: black;
+  min-height: 30px;
+  max-width: 1000px;
+  font-size: 20px;
+  align-self: flex-end;
+
+  background-color: azure;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.answer {
+  margin: 10px 0 0 15px;
+  padding: 5px 15px;
+
+  color: black;
+  min-height: 30px;
+  max-width: 1000px;
+  font-size: 20px;
+  align-self: flex-start;
+
+  background-color: azure;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.profile {
+  align-self: center;
+  text-align: center;
+  width: 400px;
+}
+
+
+
+
